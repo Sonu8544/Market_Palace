@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useMatches } from "react-router-dom";
 import Banner from "./components/Banner";
 import Products from "./components/Products";
 
@@ -9,6 +9,7 @@ const Home = () => {
 
   useEffect(() => {
     setProducts(data.data);
+    console.log("DATA", data)
   }, [data]);
   return (
     <div>
