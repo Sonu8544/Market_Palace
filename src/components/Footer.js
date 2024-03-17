@@ -15,22 +15,21 @@ const Footer = () => {
       <div className="max-w-screen-xl mx-auto grid grid-cols-4">
         <div className="flex flex-col gap-7">
           <img className="w-32" src={logoLight} alt="logoLight" />
-          <p className="text-white text-sm tracking-wide">© Vivek Panchal</p>
+          <p className="text-white text-sm tracking-wide">© sonuKumar</p>
           <img className="w-56" src={paymentLogo} alt="paymentLogo" />
           <div className="flex gap-5 text-lg text-gray-400">
             <ImGithub className="hover:text-white duration-300 cursor-pointer" />
             <FaYoutube className="hover:text-white duration-300 cursor-pointer" />
             <FaTwitter className="hover:text-white duration-300 cursor-pointer" />
-            
+
           </div>
         </div>
         <div>
           <h2 className="text-2xl font-semibold text-white mb-4">locate us</h2>
           <div className="text-base flex flex-col gap-2">
-            <p>Connaught Place, New Delhi, 110001</p>
-            <p>Mobile: +91 0000000000</p>
-            <p>Phone: 011 00000000</p>
-            <p>e-mail: bazar@bazar.com</p>
+            <p>Lakshmi Nagar, New Delhi, 110001</p>
+            <p>Mobile: +91 8544098398</p>
+            <p>e-mail: sksonu8544@gmail.com</p>
           </div>
         </div>
         <div>
@@ -66,7 +65,7 @@ const Footer = () => {
           <input
             className="bg-transparent border px-4 py-2 text-sm"
             type="text"
-            placeholder="e-mail"
+            placeholder="Type email here"
           />
           <button className="text-sm border text-white border-t-0 hover:bg-gray-900 active:bg-white active:text-black">
             Subscribe
