@@ -72,6 +72,7 @@ const Footer = () => {
           </button>
         </div>
       </div>
+      <p className="text-center mt-5 underline">{`\u00A9 ${new Date().getFullYear()} sonu kumar`}</p>
     </div>
   );
 };
